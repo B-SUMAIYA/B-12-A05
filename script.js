@@ -180,13 +180,38 @@ document.getElementById("call").addEventListener('click', function () {
          alert("Calling National Emergency Number 999...")
         fixedNumber -= 20
        document.getElementById("tk").innerText = fixedNumber;
-      
+      const historyDiv = document.getElementById("call-history");
+       const History = document.createElement("div");
+       History.style.background = "gray"
+        History.style.border = "3px solid gray-100"
+       History.style.borderRadius = "30px"
+       History.style.padding = "5px"
+       History.style.display = "flex"
+       History.style.gap = '20px'
+       History.style.marginTop = "60px"
+       //History.style.justifyContent = "flex-start"
+       // History.style.alignItems = "flex-start"
+       History.style.justifyContent = "spaceBetween"
+        History.style.padding = "10px"
+       const hElement = this.innerText;
+        const addH = document.createElement("h1");
+       addH.innerText = 'National Emergency Number' //` ${hElement}`;
+       
+       const pElement = this.innerText
+       const addp = document.createElement("p");
+       addp.innerText = 999;
 
-       //let date = new Date();
+       const time = document.createElement("span");
+       const newDate = new Date();
+       time.innerText = newDate.toLocaleTimeString();
+       History.appendChild(addH);
+       History.appendChild(addp)
+       History.appendChild(time);
+       historyDiv.appendChild(History);
 
     }
     else {
-        alert('you have not enough coin')
+       alert('you have not enough coin');
     }
 })
 //call btn 2
@@ -195,9 +220,32 @@ document.getElementById("call-2").addEventListener('click', function () {
          alert("Calling police Number 999...")
         fixedNumber -= 20
        document.getElementById("tk").innerText = fixedNumber;
-      
+       const historyDiv = document.getElementById("call-history");
+       const History = document.createElement("div");
+       History.style.background = "gray"
+        History.style.border = "3px solid gray-100"
+       History.style.borderRadius = "30px"
+       History.style.padding = "5px"
+       History.style.display = "flex"
+       History.style.gap = '20px'
+       History.style.marginTop = "60px"
+       History.style.justifyContent = "spaceBetween"
+        History.style.padding = "10px"
+        const addH = document.createElement("h1");
+       addH.innerText = 'Help Line Number'
+       
+       const pElement = this.innerText
+       const addp = document.createElement("p");
+       addp.innerText = 999;
 
-       //let date = new Date();
+       const time = document.createElement("span");
+       const newDate = new Date();
+       time.innerText = newDate.toLocaleTimeString();
+       History.appendChild(addH);
+       History.appendChild(addp)
+       History.appendChild(time);
+       historyDiv.appendChild(History);
+
 
     }
     else {
@@ -210,9 +258,31 @@ document.getElementById("call-3").addEventListener('click', function () {
          alert("Calling Fire Service Number 999...")
         fixedNumber -= 20
        document.getElementById("tk").innerText = fixedNumber;
-      
+       const historyDiv = document.getElementById("call-history");
+       const History = document.createElement("div");
+       History.style.background = "gray"
+        History.style.border = "3px solid gray-100"
+       History.style.borderRadius = "30px"
+       History.style.padding = "5px"
+       History.style.display = "flex"
+       History.style.gap = '20px'
+       History.style.marginTop = "60px"
+       History.style.justifyContent = "spaceBetween"
+        History.style.padding = "10px"
+        const addH = document.createElement("h1");
+       addH.innerText = 'Fire Service Number'
+       
+       const pElement = this.innerText
+       const addp = document.createElement("p");
+       addp.innerText = 999;
 
-       //let date = new Date();
+       const time = document.createElement("span");
+       const newDate = new Date();
+       time.innerText = newDate.toLocaleTimeString();
+       History.appendChild(addH);
+       History.appendChild(addp)
+       History.appendChild(time);
+       historyDiv.appendChild(History);
 
     }
     else {
@@ -225,9 +295,31 @@ document.getElementById("call-4").addEventListener('click', function () {
          alert("Calling Ambulance Service Number 1994-999999...")
         fixedNumber -= 20
        document.getElementById("tk").innerText = fixedNumber;
-      
+       const historyDiv = document.getElementById("call-history");
+       const History = document.createElement("div");
+       History.style.background = "gray"
+        History.style.border = "3px solid gray-100"
+       History.style.borderRadius = "20px"
+       History.style.padding = "3px"
+       History.style.display = "flex"
+       History.style.gap = '20px'
+       History.style.marginTop = "60px"
+       
+        History.style.padding = "10px"
+        const addH = document.createElement("h1");
+       addH.innerText = ' Ambulance Service'
+       
+       const pElement = this.innerText
+       const addp = document.createElement("p");
+       addp.innerText = 1994999999;
 
-       //let date = new Date();
+       const time = document.createElement("span");
+       const newDate = new Date();
+       time.innerText = newDate.toLocaleTimeString();
+       History.appendChild(addH);
+       History.appendChild(addp)
+       History.appendChild(time);
+       historyDiv.appendChild(History);
 
     }
     else {
@@ -240,9 +332,31 @@ document.getElementById("call-5").addEventListener('click', function () {
          alert("Calling Women & child Number 109...")
         fixedNumber -= 20
        document.getElementById("tk").innerText = fixedNumber;
-      
+     const historyDiv = document.getElementById("call-history");
+       const History = document.createElement("div");
+       History.style.background = "gray"
+        History.style.border = "3px solid gray-100"
+       History.style.borderRadius = "30px"
+       History.style.padding = "5px"
+       History.style.display = "flex"
+       History.style.gap = '20px'
+       History.style.marginTop = "60px"
+       History.style.justifyContent = "spaceBetween"
+        History.style.padding = "10px"
+        const addH = document.createElement("h1");
+       addH.innerText = ' Women & child Number'
+       
+       const pElement = this.innerText
+       const addp = document.createElement("p");
+       addp.innerText = 109;
 
-       //let date = new Date();
+       const time = document.createElement("span");
+       const newDate = new Date();
+       time.innerText = newDate.toLocaleTimeString();
+       History.appendChild(addH);
+       History.appendChild(addp)
+       History.appendChild(time);
+       historyDiv.appendChild(History);
 
     }
     else {
@@ -255,9 +369,31 @@ document.getElementById("call-6").addEventListener('click', function () {
          alert("Calling Anty-Corruption Number 106...")
         fixedNumber -= 20
        document.getElementById("tk").innerText = fixedNumber;
-      
+       const historyDiv = document.getElementById("call-history");
+       const History = document.createElement("div");
+       History.style.background = "gray"
+        History.style.border = "3px solid gray-100"
+       History.style.borderRadius = "30px"
+       History.style.padding = "5px"
+       History.style.display = "flex"
+       History.style.gap = '20px'
+       History.style.marginTop = "60px"
+       History.style.justifyContent = "spaceBetween"
+        History.style.padding = "10px"
+        const addH = document.createElement("h1");
+       addH.innerText = ' Anty-Corruption Number'
+       
+       const pElement = this.innerText
+       const addp = document.createElement("p");
+       addp.innerText = 106;
 
-       //let date = new Date();
+       const time = document.createElement("span");
+       const newDate = new Date();
+       time.innerText = newDate.toLocaleTimeString();
+       History.appendChild(addH);
+       History.appendChild(addp)
+       History.appendChild(time);
+       historyDiv.appendChild(History);
 
     }
     else {
@@ -270,9 +406,31 @@ document.getElementById("call-7").addEventListener('click', function () {
          alert("Calling Electric Outage Number 16216...")
         fixedNumber -= 20
        document.getElementById("tk").innerText = fixedNumber;
-      
+ const historyDiv = document.getElementById("call-history");
+       const History = document.createElement("div");
+       History.style.background = "gray"
+        History.style.border = "3px solid gray-100"
+       History.style.borderRadius = "30px"
+       History.style.padding = "5px"
+       History.style.display = "flex"
+       History.style.gap = '20px'
+       History.style.marginTop = "60px"
+       History.style.justifyContent = "spaceBetween"
+        History.style.padding = "10px"
+        const addH = document.createElement("h1");
+       addH.innerText = ' Electric Outage Number'
+       
+       const pElement = this.innerText
+       const addp = document.createElement("p");
+       addp.innerText = 16216;
 
-       //let date = new Date();
+       const time = document.createElement("span");
+       const newDate = new Date();
+       time.innerText = newDate.toLocaleTimeString();
+       History.appendChild(addH);
+       History.appendChild(addp)
+       History.appendChild(time);
+       historyDiv.appendChild(History);
 
     }
     else {
@@ -285,9 +443,32 @@ document.getElementById("call-8").addEventListener('click', function () {
          alert("Calling National Brack number 16445...")
         fixedNumber -= 20
        document.getElementById("tk").innerText = fixedNumber;
-      
+       const historyDiv = document.getElementById("call-history");
+       const History = document.createElement("div");
+       History.style.background = "gray"
+        History.style.border = "3px solid gray-100"
+       History.style.borderRadius = "30px"
+       History.style.padding = "5px"
+       History.style.display = "flex"
+       History.style.gap = '20px'
+       History.style.marginTop = "60px"
+       History.style.justifyContent = "spaceBetween"
+        History.style.padding = "10px"
+        const addH = document.createElement("h1");
+       addH.innerText = ' National Brac Number'
+       
+       const pElement = this.innerText
+       const addp = document.createElement("p");
+       addp.innerText = 16445;
 
-       //let date = new Date();
+       const time = document.createElement("span");
+       const newDate = new Date();
+       time.innerText = newDate.toLocaleTimeString();
+       History.appendChild(addH);
+       History.appendChild(addp)
+       History.appendChild(time);
+       historyDiv.appendChild(History);
+
 
     }
     else {
@@ -300,14 +481,42 @@ document.getElementById("call-9").addEventListener('click', function () {
          alert("Calling Bangladesh Railway Number 163...")
         fixedNumber -= 20
        document.getElementById("tk").innerText = fixedNumber;
-      
 
-       //let date = new Date();
+       const historyDiv = document.getElementById("call-history");
+       const History = document.createElement("div");
+       History.style.background = "gray"
+        History.style.border = "3px solid gray-100"
+       History.style.borderRadius = "30px"
+       History.style.padding = "5px"
+       History.style.display = "flex"
+       History.style.gap = '20px'
+       History.style.marginTop = "60px"
+       History.style.justifyContent = "spaceBetween"
+        History.style.padding = "10px"
+        const addH = document.createElement("h1");
+       addH.innerText = ' Bangladeshi Railway Number'
+       
+       const pElement = this.innerText
+       const addp = document.createElement("p");
+       addp.innerText = 163;
+
+       const time = document.createElement("span");
+       const newDate = new Date();
+       time.innerText = newDate.toLocaleTimeString();
+       History.appendChild(addH);
+       History.appendChild(addp)
+       History.appendChild(time);
+       historyDiv.appendChild(History);
+
+       
 
     }
     else {
         alert('you have not enough coin')
     }
+})
+document.getElementById("clear").addEventListener("click", function () {
+    document.getElementById("call-history").innerHTML = " ";
 })
    
    
