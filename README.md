@@ -14,6 +14,6 @@ Answer : Event Delegation means we put one event listener on a parrent and it
 can handle events from its child elements too. 
 this is usefull because we write less code and its work for new child elements added later.
 ## Q5:What is the difference between preventDefault() and stopPropagation() methods?
-** Answer:preventDefault() --> stop browsers normal action
+ Answer:preventDefault() --> stop browsers normal action
        stopPropagation()--> stop event going to parent
 
